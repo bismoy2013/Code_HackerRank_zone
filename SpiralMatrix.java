@@ -2,6 +2,12 @@
 public class SpiralMatrix {
 	
 	private static void Sizer (int[][] mat) {
+		
+		if(mat==null) {
+			System.out.println("Null");
+		
+		} else {
+		
 		int row = 0;
 		
 		while(row < mat.length) {
@@ -25,6 +31,7 @@ public class SpiralMatrix {
 			
 			row++;
 			
+		}
 		}
 	}
 	
